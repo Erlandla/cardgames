@@ -39,6 +39,9 @@ public class CardDeckTest {
         Card card = deck.getCard(3);
         assertEquals("S4", card.toString());
 
+        card.turnCard();
+        assertEquals("??", card.toString());
+
         assertThrows(IllegalArgumentException.class, () -> {
             deck.getCard(20);
         });
