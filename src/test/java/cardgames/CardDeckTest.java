@@ -23,6 +23,7 @@ public class CardDeckTest {
 
         assertThrows(IllegalArgumentException.class, () -> {
             CardDeck deck2 = new CardDeck(14);
+            System.out.println(deck2);
         });
     }
 
@@ -52,6 +53,7 @@ public class CardDeckTest {
         CardDeck emptyDeck = new CardDeck();
         assertThrows(IllegalArgumentException.class, () -> {
             Card cursedCard = emptyDeck.handCard();
+            System.out.println(cursedCard);
         });
     }
 
