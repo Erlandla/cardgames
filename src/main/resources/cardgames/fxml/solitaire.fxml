@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane maxHeight="900.0" maxWidth="1600.0" minHeight="900.0" minWidth="1600.0" prefHeight="900.0" prefWidth="1600.0" style="-fx-background-color: #358a4d;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cardgames.SolitaireController">
+   <children>
+      <Pane fx:id="tableau1" layoutX="200.0" layoutY="340.0" prefHeight="500.0" prefWidth="150.0" style="-fx-background-color: white;" />
+      <Pane fx:id="tableau2" layoutX="400.0" layoutY="340.0" prefHeight="500.0" prefWidth="150.0" style="-fx-background-color: white;" />
+      <Pane fx:id="tableau3" layoutX="600.0" layoutY="340.0" prefHeight="500.0" prefWidth="150.0" style="-fx-background-color: white;" />
+      <Pane fx:id="tableau4" layoutX="800.0" layoutY="340.0" prefHeight="500.0" prefWidth="150.0" style="-fx-background-color: white;" />
+      <Pane fx:id="tableau5" layoutX="1000.0" layoutY="340.0" prefHeight="500.0" prefWidth="150.0" style="-fx-background-color: white;" />
+      <Pane fx:id="tableau6" layoutX="1200.0" layoutY="340.0" prefHeight="500.0" prefWidth="150.0" style="-fx-background-color: white;" />
+      <Pane fx:id="tableau7" layoutX="1400.0" layoutY="340.0" prefHeight="500.0" prefWidth="150.0" style="-fx-background-color: white;" />
+      <Pane fx:id="handPile" layoutX="200.0" layoutY="40.0" prefHeight="211.0" prefWidth="150.0" style="-fx-background-color: white;" />
+      <Pane fx:id="wastePile" layoutX="400.0" layoutY="40.0" prefHeight="211.0" prefWidth="150.0" style="-fx-background-color: white;" />
+      <Pane fx:id="suitPile1" layoutX="800.0" layoutY="40.0" prefHeight="211.0" prefWidth="150.0" style="-fx-background-color: white;" />
+      <Pane fx:id="suitPile2" layoutX="1000.0" layoutY="40.0" prefHeight="211.0" prefWidth="150.0" style="-fx-background-color: white;" />
+      <Pane fx:id="suitPile3" layoutX="1200.0" layoutY="38.0" prefHeight="211.0" prefWidth="150.0" style="-fx-background-color: white;" />
+      <Pane fx:id="suitPile4" layoutX="1400.0" layoutY="33.0" prefHeight="211.0" prefWidth="150.0" style="-fx-background-color: white;" />
+      <Line endX="876.199951171875" layoutX="675.0" layoutY="292.0" startX="-471.0" stroke="WHITE" />
+   </children>
+</AnchorPane>
