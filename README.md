@@ -1,1 +1,1 @@
-This prosject is something I want to do in my spare time for fun.
+This project is something I want to do in my spare time for fun.
